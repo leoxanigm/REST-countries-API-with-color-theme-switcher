@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>REST Countries API with color theme switcher</title>
+    <link
+      rel="icon"
+      href="./img/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="coutry.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a href="./" class="title"><h1>Where in the world?</h1></a>
+        <div class="dark-mode-container">
+          <input type="checkbox" name="dark-mode" id="dark-mode" />
+          <label for="dark-mode" id="dark-mode-toggler">Dark Mode</label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="navigation">
+          <button class="btn nav">
+            Back
+          </button>
+        </div>
+        <div class="country-card">
+          <!-- <img
+            src="https://restcountries.eu/data/eth.svg"
+            alt="${data.name} Flag"
+            class="flag"
+          />
+          <div class="body-container">
+            <h2 class="name">${data.name}</h2>
+            <div class="left-meta">
+              <p class="meta native-name">
+                <span>Population: </span>${data.region}
+              </p>
+              <p class="meta population">
+                <span>Population: </span>${population}
+              </p>
+              <p class="meta region"><span>Region: </span>${data.region}</p>
+              <p class="meta capital"><span>Capital: </span>${data.capital}</p>
+            </div>
+            <div class="right-meta">
+              <p class="meta domain"><span>Population: </span>${population}</p>
+              <p class="meta currency"><span>Region: </span>${data.region}</p>
+              <p class="meta language"><span>Capital: </span>${data.capital}</p>
+            </div>
+            <div class="footer-meta">
+              <p class="meta border-countries">
+                <span>Border Countries: </span>
+                <a href="${data.region}" class="border-country country-1"
+                  >${data.region}</a
+                >
+                <a href="${data.region}" class="border-country country-2"
+                  >${data.region}</a
+                >
+                <a href="${data.region}" class="border-country country-3"
+                  >${data.region}</a
+                >
+              </p>
+            </div>
+          </div> -->
+        </div><!-- end country card -->
+      </div>
+    </main>
+
+    <script src="country.js"></script>
+  </body>
+</html>
